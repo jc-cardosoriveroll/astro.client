@@ -1,41 +1,38 @@
-"FOCUS Kepler.exe",
-        "TERMINATE chrome.exe",
-        "WAIT 5",
-        "SENDKEY LAlt+S",
-        "SENDKEY n",
-        "WAIT 1",
-        "TYPETEXT \"Juan Carlos\" 0.1",
-        "SENDKEY Tab",
-        "TYPETEXT \"05111976\" 0.1",
-        "SENDKEY Tab",
-        "TYPETEXT \"032000P\" 0.1",
-        "SENDKEY Tab",
-        "TYPETEXT \"Ciudad de Mexico\" 0.1",
-        "SENDKEY Enter",
-        "SENDKEY Enter",
-        "SENDKEY LAlt+n",
-        "SENDKEY n",
-        "SENDKEY LAlt+o",
-        "WAIT 1",
-        "SENDKEY LAlt+f",
-        "SENDKEY f",
-        "SENDKEY Enter",
-        "WAIT 1",
-        "SENDKEY Enter",
-        "WAIT 1.5",
-        "SENDKEY LAlt+i",
-        "SENDKEY n",
-        "SENDKEY a",
-        "SENDKEY s",
-        "SENDKEY 1",
-        "SENDKEY o",
-        "WAIT 3",
-        "GETURL \"http://127.0.0.1:58594/localHook.cfm?repId=1\"",
-        "SENDKEY LAlt+f",
-        "SENDKEY x",
-        "SENDKEY LAlt+q",
-        "SENDKEY y",
-        "WAIT 1",
-        "TERMINATE Kepler.exe",
-        "GETURL \"http://127.0.0.1:58594/index.cfm?start=true\"",
-        "TERMINATE JCAutomator.exe"
+FOCUS "Kepler.exe"
+WAIT 5
+SENDKEY LAlt+S
+SENDKEY n
+WAIT 1
+TYPETEXT "Juan Carlos" 0.1
+SENDKEY Tab
+TYPETEXT "05111976" 0.1
+SENDKEY Tab
+TYPETEXT "032000P" 0.1
+SENDKEY Tab
+TYPETEXT "Ciudad de Mexico" 0.1
+SENDKEY Enter
+SENDKEY Enter
+SENDKEY LAlt+n
+SENDKEY n
+SENDKEY LAlt+o
+WAIT 1
+SENDKEY LAlt+f
+SENDKEY f
+SENDKEY Enter
+WAIT 1
+SENDKEY Enter
+WAIT 1.5
+SENDKEY LAlt+i
+SENDKEY n
+SENDKEY a
+SENDKEY s
+SENDKEY 1
+SENDKEY o
+WAIT 3
+GETURL "http://127.0.0.1:58594/localHook.cfm?repId=1"
+SENDKEY LAlt+f
+SENDKEY x
+SENDKEY LAlt+q
+SENDKEY y
+WAIT 1
+TERMINATE "Kepler.exe"
